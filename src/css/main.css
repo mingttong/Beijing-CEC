@@ -1,0 +1,107 @@
+/******************
+*页面样式
+*******************/
+
+/*=================
+  基本默认值
+  ================*/
+
+html {
+    font-size: 625%;
+    color: #222;
+}
+
+
+::selection {
+    background-color: #b3d4fc;
+    text-shadow: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/*=================
+  工具样式
+  ================*/
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.hide {
+    display: none !important; /*会挤占元素的空间*/
+}
+
+.show {
+    display: block !important;
+}
+
+.invisible {
+    visibility: hidden; /*隐藏了不会挤占元素的空间*/
+}
+
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==============
+   浏览器更新提示
+   ==============*/
+
+.browserupgrade {
+    margin: 0;
+    padding: 0.1rem;
+    background: #ccc;
+}
+
+/* ==============
+   自定义页面样式
+   ==============*/
+
+body {
+    font-size: 0.16rem;
+    line-height: 1.5;
+    background-color: #fff;
+}
