@@ -112,6 +112,7 @@ body {
     background-color: #fff;
     font: 300 21px Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    background: url("../img/bg.jpg") repeat 0 0;
 }
 
 body .grid {
@@ -156,6 +157,9 @@ h2 {
 header {
     background-color: #6f1326;
     padding: 21px 0;
+    -webkit-box-shadow: inset 0 -3px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: inset 0 -3px 5px rgba(0,0,0,0.6);
+    box-shadow: inset 0 -3px 5px rgba(0,0,0,0.6);
 }
 
 header .icon {
@@ -199,16 +203,64 @@ header .icon img {
    ==============*/
 
 .activities {
+    background-color: #6f1326;
+    margin: 40px 0;
+    -webkit-box-shadow: inset 0 3px 10px rgba(0,0,0,0.8);
+    -moz-box-shadow: inset 0 3px 10px rgba(0,0,0,0.8);
+    box-shadow: inset 0 3px 10px rgba(0,0,0,0.8);
+}
+
+.activities .activity-attract {
+    width: 39%;
+}
+
+.activities .activity-attract h3 {
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    margin: 50px 0 0;
+}
+
+.activities .activity-images {
+    width: 60%;
+    margin: -30px 0;
+}
+
+.activities .activity-images img {
+    display: block;
 }
 
 .activities .unit:first-child {
     float: left;
 }
 
+.activities .unit:last-child {
+    float: left;
+}
+
 .activities .image-pane-big {
     float: left;
-    width: 200px;
-    background: red;
+    width: 33.3332%;
+}
+
+.activities .image-pane-big:first-child {
+    padding-right: 6px;
+}
+
+.activities .image-pane-big:nth-child(2) {
+    padding: 0 3px;
+}
+
+.activities .image-pane-big:last-child {
+    padding-left: 6px;
+}
+
+.activities .image-pane-small {
+    width: 100%;
+}
+
+.activities .image-pane-small:first-child {
+    margin-bottom: 5px;
 }
 
 .activities img {
@@ -223,6 +275,9 @@ footer {
     font-size: 16px;
     background-color: #6f1326;
     color: #ffffff;
+    -webkit-box-shadow: inset 0 3px 10px rgba(0,0,0,0.8);
+    -moz-box-shadow: inset 0 3px 10px rgba(0,0,0,0.8);
+    box-shadow: inset 0 3px 10px rgba(0,0,0,0.8);
 }
 
 /*footer .grid {*/
