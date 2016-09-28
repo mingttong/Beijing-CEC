@@ -6,6 +6,12 @@
   基本默认值
   ================*/
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 html {
     font-size: 625%;
     color: #222;
@@ -101,7 +107,31 @@ li {
    ==============*/
 
 body {
-    font-size: 0.16rem;
     line-height: 1.5;
+    color: #000;
     background-color: #fff;
+    font: 300 21px Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body .grid {
+    max-width: 978px;
+    margin: 0 auto;
+}
+
+/* ==============
+   header样式
+   ==============*/
+
+header {
+    background-color: #6f1326;
+    padding: 22px 0;
+}
+
+header .icon {
+    margin: 0 auto;
+    width: 40%;
+}
+
+header .icon img {
+    width: 100%;
 }
