@@ -211,6 +211,11 @@ footer {
     color: #ffffff;
 }
 
+footer .grid {
+    background-color: #5c101f;
+    border-radius: 10px;
+}
+
 footer .unit {
     float: left;
 }
@@ -224,15 +229,9 @@ footer p {
     opacity: 0.8;
 }
 
-footer .unit:last-child {
-    /*position: relative;*/
-}
-
 footer .image-pane {
     max-width: 79px;
     max-height: 75px;
     float: right;
     margin-top: 28px;
-    /*position: absolute;*/
-    /*right: 0;*/
 }
