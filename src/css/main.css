@@ -18,10 +18,10 @@ html {
 }
 
 
-::selection {
-    background-color: #b3d4fc;
-    text-shadow: none;
-}
+/*::selection {*/
+    /*background-color: #b3d4fc;*/
+    /*text-shadow: none;*/
+/*}*/
 
 ul {
     margin: 0;
@@ -155,12 +155,12 @@ h2 {
 
 header {
     background-color: #6f1326;
-    padding: 31px 0;
+    padding: 21px 0;
 }
 
 header .icon {
     margin: 0 auto;
-    width: 40%;
+    width: 50%;
 }
 
 header .icon img {
@@ -199,6 +199,20 @@ header .icon img {
    ==============*/
 
 .activities {
+}
+
+.activities .unit:first-child {
+    float: left;
+}
+
+.activities .image-pane-big {
+    float: left;
+    width: 200px;
+    background: red;
+}
+
+.activities img {
+    width: 100%;
 }
 
 /* ==============
