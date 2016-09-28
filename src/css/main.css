@@ -118,8 +118,12 @@ body .grid {
     margin: 0 auto;
 }
 
+h2 {
+    color: #6f1326;
+}
+
 /* ==============
-   header样式
+   header 样式
    ==============*/
 
 header {
@@ -134,4 +138,18 @@ header .icon {
 
 header .icon img {
     width: 100%;
+}
+
+/* ==============
+   section.attract 样式
+   ==============*/
+
+.attract .content {
+    padding: 30px 20px 30px 20px;
+}
+
+.attract p {
+    font-size: 3em;
+    margin: 0;
+    color: #6f1326;
 }
