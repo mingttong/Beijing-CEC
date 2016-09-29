@@ -294,6 +294,16 @@ header .icon img {
     padding: 0 20px 22px;
 }
 
+.for-more .pane:after {
+    content: "";
+    width: 73px;
+    height: 186px;
+    background: url("../img/arrow.png") top left no-repeat;
+    position: absolute;
+    right: 10px;
+    bottom: -50px;
+}
+
 .for-more img {
     float: left;
     width: 240px;
