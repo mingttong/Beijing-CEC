@@ -204,7 +204,7 @@ header .icon img {
 
 .activities {
     background-color: #6f1326;
-    margin: 40px 0;
+    margin: 60px 0;
     -webkit-box-shadow: inset 0 3px 10px rgba(0,0,0,0.8);
     -moz-box-shadow: inset 0 3px 10px rgba(0,0,0,0.8);
     box-shadow: inset 0 3px 10px rgba(0,0,0,0.8);
@@ -271,12 +271,17 @@ header .icon img {
    section.for-more 样式
    ==============*/
 
+.for-more .unit.whole {
+    padding: 20px 20px;
+}
+
 .for-more h2 {
     font-size: 28px;
 }
 
 .for-more p {
     font-size: 18px;
+    margin: 0.75em 0;
 }
 
 .for-more .pane {
@@ -286,17 +291,21 @@ header .icon img {
     border-radius: 10px;
     text-shadow: none;
     position: relative;
-    padding: 0 20px 30px;
+    padding: 0 20px 20px;
 }
 
 .for-more img {
     float: left;
-    width: 251px;
-    height: 251px;
+    width: 240px;
+    height: 240px;
+    margin-left: -50px;
+    margin-right: 20px;
+    margin-top: -30px;
 }
 
 .for-more .pane-content {
-    padding-top: 35px;
+    padding-top: 10px;
+    padding-right: 30px;
 }
 
 /* ==============
@@ -310,6 +319,7 @@ footer {
     -webkit-box-shadow: inset 0 3px 10px rgba(0,0,0,0.8);
     -moz-box-shadow: inset 0 3px 10px rgba(0,0,0,0.8);
     box-shadow: inset 0 3px 10px rgba(0,0,0,0.8);
+    margin-top: 40px;
 }
 
 /*footer .grid {*/
