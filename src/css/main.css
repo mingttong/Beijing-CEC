@@ -268,6 +268,38 @@ header .icon img {
 }
 
 /* ==============
+   section.for-more 样式
+   ==============*/
+
+.for-more h2 {
+    font-size: 28px;
+}
+
+.for-more p {
+    font-size: 18px;
+}
+
+.for-more .pane {
+    background: rgba(187, 177, 154, 0.4);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-shadow: none;
+    position: relative;
+    padding: 0 20px 30px;
+}
+
+.for-more img {
+    float: left;
+    width: 251px;
+    height: 251px;
+}
+
+.for-more .pane-content {
+    padding-top: 35px;
+}
+
+/* ==============
    footer 样式
    ==============*/
 
