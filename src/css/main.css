@@ -91,6 +91,10 @@ li {
     clear: both;
 }
 
+.hide-on-PC {
+    display: none;
+}
+
 /* ==============
    浏览器更新提示
    ==============*/
@@ -250,10 +254,6 @@ header .icon img {
     font-weight: bold;
 }
 
-.intro .hide-on-PC {
-    display: none;
-}
-
 @media only screen and (max-width: 885px) and (min-width: 775px) {
 
     .intro .unit h2 {
@@ -328,11 +328,7 @@ header .icon img {
     margin: -30px 0;
 }
 
-.activities .unit:first-child {
-    float: left;
-}
-
-.activities .unit:last-child {
+.activities .unit {
     float: left;
 }
 
@@ -342,15 +338,11 @@ header .icon img {
 }
 
 .activities .image-pane-big:first-child {
-    padding-right: 6px;
-}
-
-.activities .image-pane-big:nth-child(2) {
-    padding: 0 3px;
+    padding-right: 5px;
 }
 
 .activities .image-pane-big:last-child {
-    padding-left: 6px;
+    padding-left: 5px;
 }
 
 .activities .image-pane-small {
@@ -358,7 +350,7 @@ header .icon img {
 }
 
 .activities .image-pane-small:first-child {
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .activities img {
@@ -376,6 +368,48 @@ header .icon img {
         -ms-transition: width 1s;
         -o-transition: width 1s;
         transition: width 1s;
+    }
+
+}
+
+@media only screen and (max-width: 977px) {
+
+    .activities .hide-on-PC {
+        display: block;
+        padding: 0 20px;
+    }
+
+    .activities .show-on-PC {
+        display: none;
+    }
+
+    .activities .hide-on-PC .image-pane-big {
+        width: 49.9999%;
+    }
+
+    .activities .image-pane-big:first-child {
+        padding-right: 3px;
+    }
+
+    .activities .image-pane-big:last-child {
+        padding-left: 3px;
+    }
+
+    .activities .image-pane-small:first-child {
+        margin-bottom: 6px;
+    }
+}
+
+@media only screen and (max-width: 719px) {
+
+    .activities .activity-attract {
+        width: 100%;
+    }
+
+    .activities .activity-images {
+        width: 100%;
+        padding: 0 20px;
+        margin: 50px 0 -30px;
     }
 
 }
