@@ -187,12 +187,10 @@ header .icon img {
     color: #6f1326;
 }
 
-@media only screen and (max-width: 968px) {
-
+@media screen and (max-width: 978px) {
     .attract p {
-        font-size: 3.2em;
+        font-size: 10em;
     }
-
 }
 
 /* ==============
