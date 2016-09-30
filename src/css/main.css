@@ -187,12 +187,6 @@ header .icon img {
     color: #6f1326;
 }
 
-@media screen and (max-width: 978px) {
-    .attract p {
-        font-size: 10em;
-    }
-}
-
 /* ==============
    section.intro 样式
    ==============*/
