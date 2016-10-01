@@ -422,7 +422,7 @@ header .icon img {
    section.for-more 样式
    ==============*/
 
-.for-more .grid>.unit.whole {
+.for-more .grid > .unit.whole {
     padding: 20px 20px;
 }
 
@@ -517,11 +517,6 @@ footer {
     margin-top: 40px;
 }
 
-/*footer .grid {*/
-/*background-color: #5c101f;*/
-/*border-radius: 10px;*/
-/*}*/
-
 footer .unit {
     float: left;
 }
@@ -540,4 +535,26 @@ footer .image-pane {
     height: 75px;
     float: right;
     margin-top: 28px;
+}
+
+@media only screen and (max-width: 718px) {
+
+    footer .grid > .unit {
+        width: 49.9999%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    footer .grid > .unit {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    footer .image-pane {
+        float: none;
+        margin: 0 auto;
+    }
+
 }
